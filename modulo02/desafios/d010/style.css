@@ -12,11 +12,11 @@
 
 :root {
     --cor0:#c5ebd6; 
-    --cor1: #83E1AD;
-    --cor2: #3DDC84;
-    --cor3: #2FA866;
-    --cor4: #1A5C37;
-    --cor5: #063d1e;
+    --cor1:#83E1AD;
+    --cor2:#3DDC84;
+    --cor3:#2FA866;
+    --cor4:#1A5C37;
+    --cor5:#063d1e;
     --fonte0: Arial, Helvetica, sans-serif;
     --fonte1: 'bebas neue';
     --fonte2: 'idroid';    
@@ -128,6 +128,11 @@ a.texto::after {
 img {
     display: block;
     margin: 0 auto;
+    width: 100%;
+}
+
+img.pequena {
+    max-width: 300px;
 }
 
 div.video {
