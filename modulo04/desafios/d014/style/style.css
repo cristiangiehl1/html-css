@@ -34,10 +34,9 @@ div#container_fundo {
 	transform-origin: 55px 251px;
 }
 
-iframe{
-	width: 100%;
-	height: 100%;
-	overflow: hidden;	
+iframe {
+	width: 400px;
+	height: 711px;
 }
 
 .tela_outras {
